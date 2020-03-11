@@ -24,7 +24,20 @@ size_t measure(const binary_tree_t *tree)
 
 	a = measure(tree->left);
 	b = measure(tree->right);
-	return (MAX(a, b) + 1);
+	return (max(a, b) + 1);
+}
+/**
+ * max - helper
+ * @a: the first number
+ * @b: the second number
+ * Return: height of tree
+ */
+int max(int a, int b)
+{
+	if (a > b)
+		return (a);
+	else
+		return (b);
 }
 /**
  * binary_tree_balance - function that measures the balance factor
