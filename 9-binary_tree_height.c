@@ -11,7 +11,7 @@ size_t binary_tree_height(const binary_tree_t *tree)
 
 	if (tree == NULL)
 		return (0);
-	/* compute the depth of each subtree */
+	/* compute the height of each subtree */
 	if (tree->left)
 	{
 		countLeft = 1 + binary_tree_height(tree->left);
