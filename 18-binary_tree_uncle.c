@@ -12,3 +12,14 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 				? node->parent->right
 				: node->parent->left);
 }
+/**
+ * binary_tree_uncle -  a function that finds the uncle of a node
+ * @node: pointer to input node
+ * Return: pointer to uncle
+ */
+binary_tree_t *binary_tree_uncle(binary_tree_t *node)
+{
+	if (!node)
+		return (NULL);
+	return (binary_tree_sibling(node->parent));
+}
