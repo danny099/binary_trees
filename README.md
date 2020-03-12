@@ -184,3 +184,5 @@ Your programs and functions will be compiled with gcc 4.8.4 using the flags -Wal
 
 
 ## Authors
+* Danny Martinez | [GitHub](https://github.com/danny099) | [Twitter](https://twitter.com/dalmariv01)
+* Victor Hernandez | [GitHub](https://github.com/vik407) | [Twitter](https://twitter.com/vik407)
