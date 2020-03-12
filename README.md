@@ -113,5 +113,35 @@ Your programs and functions will be compiled with gcc 4.8.4 using the flags -Wal
   - Where tree is a pointer to the root node of the tree to measure the height.
   - If tree is NULL, your function must return 0
 
+### [10. Depth](./10-binary_tree_depth.c)
+
+- Write a function that measures the depth of a node in a binary tree
+  - Prototype: `size_t binary_tree_depth(const binary_tree_t *tree)`;
+  - Where tree is a pointer to the node to measure the depth
+  - If tree is NULL, your function must return 0
+
+### [11. Size](./11-binary_tree_size.c)
+
+- Write a function that measures the size of a binary tree
+  - Prototype: `size_t binary_tree_size(const binary_tree_t *tree)`;
+  - Where tree is a pointer to the root node of the tree to measure the size
+  - If tree is NULL, the function must return 0
+
+### [12. Leaves](./12-binary_tree_leaves.c)
+
+- Write a function that counts the leaves in a binary tree
+  - Prototype: `size_t binary_tree_leaves(const binary_tree_t *tree)`;
+  - Where tree is a pointer to the root node of the tree to count the number of leaves
+  - If tree is NULL, the function must return 0
+  - A NULL pointer is not a leaf
+
+### [13. Nodes](./13-binary_tree_nodes.c)
+
+- Write a function that counts the nodes with at least 1 child in a binary tree
+  - Prototype: `size_t binary_tree_nodes(const binary_tree_t *tree)`;
+  - Where tree is a pointer to the root node of the tree to count the number of nodes
+  - If tree is NULL, the function must return 0
+  - A NULL pointer is not a node
+
 
 ## Authors
