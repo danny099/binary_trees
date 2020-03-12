@@ -82,6 +82,36 @@ Your programs and functions will be compiled with gcc 4.8.4 using the flags -Wal
   - Your function must return 1 if node is a root, otherwise 0
   - If node is NULL, return 0
 
+### [6. Pre-order traversal](./6-binary_tree_preorder.c)
+
+- Write a function that goes through a binary tree using pre-order traversal
+  - Prototype: `void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))`;
+  - Where tree is a pointer to the root node of the tree to traverse
+  - And func is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.
+  - If tree or func is NULL, do nothing
+
+### [7. In-order traversal](./7-binary_tree_inorder.c)
+
+- Write a function that goes through a binary tree using in-order traversal
+  - Prototype: `void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int))`;
+  - Where tree is a pointer to the root node of the tree to traverse
+  - And func is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.
+  - If tree or func is NULL, do nothing
+
+### [8. Post-order traversal](./8-binary_tree_postorder.c)
+
+- Write a function that goes through a binary tree using post-order traversal
+  - Prototype: `void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))`;
+  - Where tree is a pointer to the root node of the tree to traverse
+  - And func is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.
+  - If tree or func is NULL, do nothing
+
+### [9. Height](./9-binary_tree_height.c)
+
+- Write a function that measures the height of a binary tree
+  - Prototype: `size_t binary_tree_height(const binary_tree_t *tree)`;
+  - Where tree is a pointer to the root node of the tree to measure the height.
+  - If tree is NULL, your function must return 0
 
 
 ## Authors
